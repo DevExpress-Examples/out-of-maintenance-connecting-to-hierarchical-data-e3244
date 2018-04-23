@@ -1,0 +1,21 @@
+﻿<Window 
+    
+    xmlns:dxt="http://schemas.devexpress.com/winfx/2008/xaml/grid"    
+        x:Class="TreeList_DataBinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <dxt:TreeListControl Name="treeList">
+            <dxt:TreeListControl.Columns>
+                <dxt:TreeListColumn FieldName="Name" Header="Employee Name" />
+                <dxt:TreeListColumn FieldName="Position" />
+                <dxt:TreeListColumn FieldName="Department" />
+            </dxt:TreeListControl.Columns>
+            <dxt:TreeListControl.View>
+                <dxt:TreeListView Name="treeListView1" AutoWidth="True"
+                                  KeyFieldName="ID" ParentFieldName="ParentID" />
+            </dxt:TreeListControl.View>
+        </dxt:TreeListControl>
+    </Grid>
+</Window>
