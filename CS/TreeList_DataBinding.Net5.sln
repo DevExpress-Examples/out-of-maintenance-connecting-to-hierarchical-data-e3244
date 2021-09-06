@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeList_DataBinding", "TreeList_DataBinding\TreeList_DataBinding.csproj", "{2016B356-D6FD-4BD1-92AC-B1676C303745}"
+# Visual Studio 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeList_DataBinding", "TreeList_DataBinding\TreeList_DataBinding.Net5.csproj", "{2016B356-D6FD-4BD1-92AC-B1676C303745}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
